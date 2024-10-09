@@ -119,7 +119,7 @@ function ShoppingCheckout() {
             <Button onClick={handleInitiatePaypalPayment} className="w-full">
               {isPaymentStart
                 ? "Processing Paypal Payment..."
-                : "Checkout with Paypal"}
+                : "Checkout with RazorPay"}
             </Button>
           </div>
         </div>
